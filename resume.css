@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  flex: 0 1 70%;
+  padding: 1rem;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+aside {
+  flex: 0 1 30%;
+  background-color: #369c87;
+  border-left: 2px solid teal;
+  padding: 2rem 0.5rem 0;
+}
+.name {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.job_title {
+  color: #369c87;
+  font-size: 0.98rem;
+  font-weight: normal;
+}
+.summary_text {
+  font-size: 0.85rem;
+}
+section {
+  margin: 1rem 0;
+}
+.contact_cards {
+  list-style: none;
+  display: inline-block;
+  width: fit-content;
+  background: #369c886d;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.2rem 1px;
+  color: #333;
+  font-size: 0.89rem;
+  line-height: 1.4;
+}
+.fa-solid,
+.fa-brands {
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #004848;
+}
+.str_icon {
+  background: #004848;
+  color: #fff;
+}
+.job {
+  border-left: 1px solid teal;
+  margin: 0.75rem 0;
+  padding: 0 0.5rem 0;
+  position: relative;
+}
+.job::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  left: -0.4rem;
+  top: 0rem;
+  border-radius: 50%;
+  position: absolute;
+  background: #369c87;
+}
+.header {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #369c88;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.15rem;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.title span {
+  text-transform: capitalize;
+}
+.job_employer {
+  color: #287263;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.date {
+  color: #004848;
+  font-size: 0.9rem;
+}
+.job_desc {
+  font-size: 0.85rem;
+}
+.job_achieved {
+  padding-left: 1rem;
+  font-size: 0.85rem;
+}
+.exp {
+  color: #287263;
+}
+.exp_text {
+  color: #333;
+}
+
+.edu_box {
+  margin: 0 0 1.5rem;
+  color: #fff;
+}
+
+/* Aside styles */
+.skills .header,
+.strength .header,
+.hobbies .header,
+.education .header {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.15rem;
+}
+.institute {
+  color: #004848;
+  font-weight: 400;
+}
+.skill_list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.skillset {
+  list-style: none;
+  width: fit-content;
+  background: #004848;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.2rem 2px;
+  color: #fff;
+  font-size: 0.89rem;
+}
+.strength ul {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.str {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  color: #fff;
+  font-size: 0.85rem;
+}
+.hubby {
+  display: flex;
+  justify-content: flex-start;
+}
+.hubby li {
+  margin: 1rem;
+  color: #fff;
+  font-size: 0.85rem;
+}
